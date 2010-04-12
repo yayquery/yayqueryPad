@@ -29,6 +29,10 @@ function isProduction() {
 var SUPERDOMAINS = {
   'localbox.info': true,
   'localhost': true,
+  'oksoclap.com':true,
+  'vladikoff.com' : true, 
+  '69.164.215.67:9001': true,
+  '69.164.215.67': true,
   'etherpad.com': true
 };
 

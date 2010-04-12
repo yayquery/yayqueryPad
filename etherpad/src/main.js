@@ -267,9 +267,9 @@ function checkHost() {
   if (pro_utils.isProDomainRequest()) {
     return;
   }
-
+//http://69.164.215.67:9001/etherpad
   // redirect to etherpad.com
-  var newurl = "http://etherpad.com"+request.path;
+  var newurl = "http://oksoclap:9001"+request.path;
   if (request.query) { newurl += "?"+request.query; }
   response.redirect(newurl);
 }

@@ -15,7 +15,10 @@ limitations under the License. */ %><% helpers.setHtmlTitle("EtherPad: Create a 
 <div id="createpadpage" class="fpcontent">
   <form action="<%= request.path %>" method="post">
 
-    <p><tt id="padurl">http://<%= request.host %>/<%= toHTML(padId) %></tt></p>
+    <!-- <p><tt id="padurl">http://<%= request.host %>/<%= toHTML(padId) %></tt></p> -->
+	
+	 <p><tt id="padurl">http://oksoclap.com/<%= toHTML(padId) %></tt></p>
+	
 
     <br/>
     <p>There is no EtherPad document here. Would you like to create one?</p>
