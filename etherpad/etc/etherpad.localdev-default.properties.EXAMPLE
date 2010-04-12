@@ -1,0 +1,16 @@
+ajstdlibHome = ../infrastructure/framework-src/modules
+appjetHome = ./data/appjet
+devMode = true
+etherpad.adminPass = ADMINPASSHERE
+etherpad.fakeProduction = false
+etherpad.isProduction = false
+etherpad.SQL_JDBC_DRIVER = com.mysql.jdbc.Driver
+etherpad.SQL_JDBC_URL = jdbc:mysql://localhost:3306/etherpad
+etherpad.SQL_PASSWORD = PASSWORDHERE
+etherpad.SQL_USERNAME = USERNAMEHERE
+listen = 9001
+logDir = ./data/logs
+modulePath = ./src
+transportPrefix = /comet
+transportUseWildcardSubdomains = true
+useVirtualFileRoot = ./src
