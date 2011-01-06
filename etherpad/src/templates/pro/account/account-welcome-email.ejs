@@ -14,15 +14,15 @@ limitations under the License. */ %>
 Dear <%= account.fullName %>,
 
 <% if (adminAccount) { %>
-<%= adminAccount.fullName %> has created an EtherPad account for you on <%=
+<%= adminAccount.fullName %> has created an OkSoClap account for you on <%=
 request.host %> (<%= siteName %>).  You can sign in by clicking on the following link:
 <% } else { %>
-Thank you for signing up for EtherPad Professional Edition.  You can sign in by clicking on the following link:
+Thank you for signing up for OkSoClap Professional Edition.  You can sign in by clicking on the following link:
 <% } %>
 
 <%= signinLink %>
 
-For help signing in, or general support issues, please email support@etherpad.com.
+
 
 --
 This email was sent to <%= toEmail %> from an EtherPad user.

@@ -15,7 +15,9 @@ limitations under the License. */ %><% helpers.includeJQuery() %>
 <% helpers.includeCss("pro/account.css") %>
 <% helpers.setHtmlTitle("EtherPad: Sign In") %>
 
-<div class="fpcontent">
+<div class="fpcontent"> 
+
+
   <div class="account-container">
 
   <%= signinNotice() %>
@@ -25,7 +27,7 @@ limitations under the License. */ %><% helpers.includeJQuery() %>
     <div class="bb-top">
       <div class="bb-topleft"><!-- --></div>
       <div class="bb-topright"><!-- --></div>
-      <div class="bb-title">Sign In to <%= siteName %> EtherPad</div>
+      <div class="bb-title">Sign In to <em><%= siteName %></em> OkSoClapSpot</div>
     </div>
     <div class="bb-in">
       <%= errorDiv() %>
@@ -75,6 +77,7 @@ limitations under the License. */ %><% helpers.includeJQuery() %>
       href="/ep/account/forgot-password">Recover lost
       password</a>
   </div>
+  <img src="http://oksoclap.com/static/img/custom/hands_clap.jpg" alt="OkSoClap Pro" style="margin-left: 100px; margin-top: 40px;" />
 
   </div>
 </div>
