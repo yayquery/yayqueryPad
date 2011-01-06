@@ -1,0 +1,5 @@
+etherpad/etc/etherpad.localdev-default.properties
+infrastructure/lib/mysql-connector-java-5.1.12-bin.jar
+etherpad/appjet-eth-dev.jar
+data/
+.project
